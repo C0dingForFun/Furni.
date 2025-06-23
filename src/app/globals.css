@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width:100vw;
+  height:auto;
+  overflow-x: hidden;
+}
+
+.banner-content{
+  padding-left:10vw;
+  color:#f6f6f6;
+  text-shadow: 4px 4px gray;
+}
+
+section{
+  margin-top:5vh;
+}
+
+h2{
+  color:#f6f6f6;
+  text-shadow: 4px 4px gray;
+}
+
+.featured-btn{
+  color:#FB8D23;
+  text-decoration:underline;
+}
