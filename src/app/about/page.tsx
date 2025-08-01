@@ -1,11 +1,13 @@
-import Navbar from "../../../components/navbar"
+'use client'
+
+import Navbar2 from "../../../components/nav"
 import Footer from "../../../components/footer"
 import Image from "next/image"
 
 export default function About() {
   return (
     <div className="w-full">
-      <Navbar/>
+      <Navbar2/>
         <Image
           src='/Luxurious Living Space with Landscape View.jpeg'
           alt="about-banner img"

@@ -49,11 +49,11 @@ export default function Home(){
               <Image
                 src={'/home_chair.png'}
                 alt="Home-chairs"
-                width={800} 
+                width={400} 
                 height={100}
                 className="z-0  rounded"
               />
-              <h2 className="text-start md:text-4xl text-5xl text-white  z-2 absolute pb-5 px-5">
+              <h2 className="text-start md:text-4xl text-5xl text-white  z-2 absolute pb-5 px-2">
                 Chairs
               </h2>
             </div>
@@ -61,11 +61,11 @@ export default function Home(){
               <Image
                 src={'/home_sofa.png'}
                 alt="Home-sofas"
-                width={800}
+                width={400}
                 height={100}
                 className="z-0  rounded"
               />
-              <h2 className="text-start md:text-4xl text-5xl z-2 absolute pb-5 px-5">
+              <h2 className="text-start md:text-4xl text-5xl z-2 absolute pb-5 px-2">
                 Sofas
               </h2>
             </div>
@@ -73,11 +73,11 @@ export default function Home(){
               <Image
                 src={'/home_table.png'}
                 alt="Home-tables"
-                width={800}
+                width={400}
                 height={100}
                 className="z-0  rounded"
               />
-              <h2 className="text-start md:text-4xl text-5xl z-2 absolute pb-5 px-5">
+              <h2 className="text-start md:text-4xl text-5xl z-2 absolute pb-5 px-2">
                 Tables
               </h2>
             </div>
@@ -94,8 +94,8 @@ export default function Home(){
                 src={'/home_living_room.jpeg'} 
                 alt="Home-living-room"
                 width={900} 
-                height={500}
-                className="z-0 w-full rounded"
+                height={200}
+                className="z-0 w-full rounded h-100"
               />
               <h2 className="text-5xl text-white z-2 absolute pb-5 px-5">
                 Living Room
@@ -105,11 +105,11 @@ export default function Home(){
               <Image
                 src={'/home_dining_room.jpeg'}
                 alt="Home-dining-room"
-                width={500}
+                width={900}
                 height={100}
-                className="z-0 w-full rounded"
+                className="z-0 w-full rounded h-100"
               />
-              <h2 className="text-5xl text-white image-resonsive z-2 absolute pb-5 px-5">
+              <h2 className="text-5xl text-white image-resonsive z-3 absolute pb-5 px-5">
                 Dining Room
               </h2>
           </div>
@@ -231,7 +231,7 @@ export default function Home(){
                 alt=""
                 width={1200}
                 height={800}
-                className="w-full rounded lg:h-90 h-60 border-b border-black mb-5"
+                className="w-full rounded lg:h-90 h-80 border-b border-black mb-5"
               />
               <h1 className="text-3xl text-semibold mb-5">
                 Papasan Chair
@@ -254,7 +254,7 @@ export default function Home(){
                 alt=""
                 width={1200}
                 height={800}
-                className="w-full rounded lg:lg:h-90 h-60 border-b border-black mb-5"
+                className="w-full rounded lg:h-90 h-80 border-b border-black mb-5"
               />
               <h1 className="text-3xl text-semibold mb-5">
                 Rest Sofa
@@ -277,7 +277,7 @@ export default function Home(){
                 alt=""
                 width={1200}
                 height={800}
-                className="w-full rounded lg:h-90 h-60 border-b border-black mb-5"
+                className="w-full rounded lg:h-90 h-80 border-b border-black mb-5"
               />
               <h1 className="text-3xl text-semibold mb-5">
                 Dining Table
@@ -300,7 +300,7 @@ export default function Home(){
                 alt=""
                 width={1200}
                 height={800}
-                className="w-full rounded lg:h-90 h-60 border-b border-black mb-5"
+                className="w-full rounded lg:h-90 h-80 border-b border-black mb-5"
               />
               <h1 className="text-3xl text-semibold mb-5">
                 Desk Lamp
@@ -323,7 +323,7 @@ export default function Home(){
                 alt=""
                 width={1200}
                 height={800}
-                className="w-full rounded lg:h-90 h-60 border-b border-black mb-5"
+                className="w-full rounded lg:h-90 h-80 border-b border-black mb-5"
               />
               <h1 className="text-3xl text-semibold mb-5">
                 Aqua Vase
@@ -346,7 +346,7 @@ export default function Home(){
                 alt=""
                 width={1200}
                 height={800}
-                className="w-full rounded lg:h-90 h-60 border-b border-black mb-5"
+                className="w-full rounded lg:h-90 h-80 border-b border-black mb-5"
               />
               <h1 className="text-3xl text-semibold mb-5">
                 Queen-Sized Bed

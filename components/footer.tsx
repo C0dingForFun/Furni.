@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Image from 'next/image';
 
 export default function Footer() {
   return (
@@ -26,9 +27,14 @@ export default function Footer() {
               </div>
             </div>
             <div className="grid grid-cols-5 bg-gray-300 w-full h-80 place-content-center place-items-center px-5">
-              <div className="bg-black w-20 h-20 col-span-2">
+              <div className="w-20 h-20 col-span-2">
+                <h1 className='text-6xl'>
+                  Furni.
+                </h1>
               </div>
-              <div className="bg-black w-20 h-20 col-span-1"></div>
+              <div className="bg-black w-20 h-20 col-span-1">
+                
+              </div>
               <div className="bg-black w-20 h-20 col-span-1"></div>
               <div className="bg-black w-20 h-20 col-span-1"></div>
 
