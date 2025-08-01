@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Footer() {
   return (
@@ -32,11 +32,34 @@ export default function Footer() {
                   Furni.
                 </h1>
               </div>
-              <div className="bg-black w-20 h-20 col-span-1">
-                
+              <div className="w-20 h-20 col-span-1">
+                <h3 className='text-2xl'>
+                  Links
+                </h3>
+                <div className='grid'>
+                  <Link href='/'>Home</Link>
+                  <Link href='/about'>About</Link>
+                  <Link href="/store">Store</Link>
+                  <Link href="/cart">Cart</Link>
+                  <Link href="/contact">Contact</Link>
+                </div>
               </div>
-              <div className="bg-black w-20 h-20 col-span-1"></div>
-              <div className="bg-black w-20 h-20 col-span-1"></div>
+              <div className="bg-black w-20 h-20 col-span-1">
+                <h3>
+
+                </h3>
+                <Link href=""></Link>
+                <Link href=""></Link>
+                <Link href=""></Link>
+              </div>
+              <div className="bg-black w-20 h-20 col-span-1">
+                <h3>
+
+                </h3>
+                <Link href=""></Link>
+                <Link href=""></Link>
+                <Link href=""></Link>
+              </div>
 
             </div>
         </section>
