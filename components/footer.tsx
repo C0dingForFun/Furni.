@@ -46,7 +46,7 @@ export default function Footer() {
               </div>
               <div className="bg-black w-20 h-20 col-span-1">
                 <h3>
-
+                  
                 </h3>
                 <Link href=""></Link>
                 <Link href=""></Link>
